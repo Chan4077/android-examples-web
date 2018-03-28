@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/theming';
+// Theming
+@import 'theming';
+@include mat-core();
+$android-examples-primary: mat-palette($mat-indigo);
+$android-examples-accent: mat-palette($mat-pink);
+$android-examples-theme: mat-light-theme($android-examples-primary, $android-examples-accent);
+@include angular-material-theme($android-examples-theme);
+@include android-examples-theme($android-examples-theme);
+@include tables-theme($android-examples-theme);
+// End theming
+.app-sidenav {
+    min-width: 200px;
+}
+.app-sidenav-btn {
+	margin-right: 10px !important;
+}
