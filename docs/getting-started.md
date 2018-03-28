@@ -26,6 +26,7 @@ To download Android Studio, visit [this website][android-studio-download] and cl
 | ![Android Developers - Download Android Studio (macOS)](/src/assets/android-studio/android-studio-download-mac.jpg) |
 |-|
 | macOS Version of the Android Studio website |
+
 (P.S. You should probably actually read the terms and conditions..)
 
 Save the file anywhere you want it to be, just ensure that you know where it is found.
