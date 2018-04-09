@@ -23,9 +23,8 @@ You will need:
 # 2. Download & Install Android Studio
 To download Android Studio, visit [this website][android-studio-download] and click on the big green `Download Android Studio` button. A dialog will be shown with the terms and conditions. Click on the `I have read and agree with the above terms and conditions` checkbox and click on the `Download` button.
 
-| ![Android Developers - Download Android Studio (macOS)](/src/assets/android-studio/android-studio-download-mac.jpg) |
-|-|
-| macOS Version of the Android Studio website |
+![Android Developers - Download Android Studio (macOS)](/src/assets/android-studio/android-studio-download-mac.jpg)
+macOS Version of the Android Studio website
 
 (P.S. You should probably actually read the terms and conditions..)
 
@@ -61,7 +60,7 @@ Once you are done customizing, click on `Next`.
 
 ## 3.1. Select minimum SDK level
 ![Android Studio - Minimum SDK Dialog](/src/assets/android-studio/android-studio-min-sdk.jpg)
-In this example, we'll keep the default to `API 21: Lollipop 5.0`. This dialog will be discussed in a future article.
+In this example, we'll keep the default to `API 21: Lollipop 5.0`. For more info about what an API level is, see [here][what-is-an-api-lvl] and for choosing your API level, see [here][]
 
 Click the `Next` button to continue.
 
@@ -115,5 +114,6 @@ Once you're done editing, run the app again. (Android Studio should automaticall
 ![Hello World App (Modified)](/src/assets/hello-world-app/hello-world-app-android.png)
 Amazing, right?
 
+[what-is-an-api-lvl]: https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels
 [android-studio-download]: https://developer.android.com/studio/index.html
 [kotlin]: https://kotlinlang.org
