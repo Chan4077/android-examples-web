@@ -1,0 +1,66 @@
+# Site name
+site_name: Android Examples
+# Theming configuration
+theme:
+    name: 'material'
+    feature:
+        tabs: true
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+# Pages
+pages:
+    - Home: index.md
+    - About: about.md
+    - Getting started: getting-started.md
+    # Note: The testing page should be commented on production builds
+    - Testing: testing.md
+    - Components:
+        - Button: components/button.md
+        - Dialog: components/dialog.md
+        - Tabs: components/tabs.md
+    - Patterns:
+        - App layout: patterns/app-layout.md
+        - Bottom navigation: patterns/bottom-navigation.md
+        - Navigation drawer: patterns/navigation-drawer.md
+        - Notifications: patterns/notifications.md
+        - Search: patterns/search.md
+        - Swipe-to-refresh: patterns/swipe-to-refresh.md
+    - Showcases:
+        - Examples:
+            - Android Examples: showcases/examples/android-examples.md
+            - StudyBuddy: showcases/examples/studybuddy.md
+        - Libraries:
+            - AppCompat: showcases/libraries/appcompat.md
+# Repository
+repo_name: Chan4077/android-examples-web
+repo_url: https://github.com/Chan4077/android-examples-web
+
+# Copyright
+copyright: 'Copyright &copy; 2018 Edric Chan'
