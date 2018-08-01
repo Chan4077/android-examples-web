@@ -1,27 +1,46 @@
-# AndroidExamplesWeb
+# `android-examples-web`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+## About
 
-## Development server
+This project was made for the purpose of guiding beginners who are new to Android.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_This project is based on a material-docs online._
 
-## Code scaffolding
+<!-- TODO: Add project URL -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Developmental guides
 
-## Build
+### Serving locally
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+1. Install `mkdocs` using Python's `pip`:
 
-## Running unit tests
+   Python 3.x:
+   ```bash
+   pip3 install mkdocs
+   ```
+   Python 2.x:
+   ```bash
+   pip install mkdocs
+   ```
+2. Clone the repoistory:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   git clone https://github.com/Chan4077/android-examples-web.git
+   ```
+3. `cd` to the cloned repo's directory:
 
-## Running end-to-end tests
+   ```bash
+   cd android-examples-web
+   ```
+4. Serve the docs:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+   ```bash
+   mkdocs serve
+   ```
+5. The URL should be automatically opened and you'll see a local copy of the docs.
 
-## Further help
+You're done!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Contributing
+
+- Spotted a bug? Have a feature request? Report it on Github issues!

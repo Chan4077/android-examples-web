@@ -1,7 +1,9 @@
 # About
+
 This guide was inspired by <https://materialdoc.com>.
 
-# License
+## License
+
 ```
 MIT License
 
